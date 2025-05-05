@@ -14,7 +14,7 @@ BAIS3250_FinalProject/
 ├── src/            # Python scripts (scraping, cleaning)
 ├── docs/           # Supporting docs (proposal, data dictionary draft)
 └── README.md       # This file
-
+```
 ---
 
 ## Table of Contents
