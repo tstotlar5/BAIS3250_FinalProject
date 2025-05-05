@@ -4,6 +4,17 @@
 **Course:** BAIS 3250 – Data Wrangling  
 
 ## Project Structure
+
+```text
+BAIS3250_FinalProject/
+├── data/
+│   ├── raw/        # Original scraped CSVs (2013, 2018, 2023)
+│   └── processed/  # Cleaned & merged dataset
+├── notebooks/      # Jupyter notebooks (scraping, integration, analysis)
+├── src/            # Python scripts (scraping, cleaning)
+├── docs/           # Supporting docs (proposal, data dictionary draft)
+└── README.md       # This file
+
 ---
 
 ## Table of Contents
