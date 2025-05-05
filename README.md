@@ -3,23 +3,7 @@
 **Project Title:** Housing Affordability in Johnson County, Iowa  
 **Course:** BAIS 3250 – Data Wrangling  
 
----
-
 ## Project Structure
-
-BAIS3250_FinalProject/
-├── data/
-│ ├── raw/ # Original scraped CSVs
-│ └── processed/ # Cleaned & merged data
-├── notebooks/ # Jupyter notebooks
-├── docs/ # Supporting documents (proposal, etc.)
-├── src/ # Python scripts (scraping, cleaning)
-└── README.md # This file
-
-
----
-
-
 ---
 
 ## Table of Contents
@@ -81,13 +65,3 @@ All scripts live in `src/`. Examples:
 
 *Last updated: $(date +%Y-%m-%d)*  
 EOF
-
-# 4. Initialize git, commit, and push
-git init
-git add .
-git commit -m "Initialize project structure + root README"
-# replace <your-remote-url> with your GitHub repo HTTPS or SSH link
-git remote add origin <your-remote-url>
-git branch -M main
-git pull --rebase origin main 2>/dev/null || true
-git push -u origin main
